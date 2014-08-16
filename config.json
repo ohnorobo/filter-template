@@ -24,10 +24,10 @@
         "phone_numbers",
 
         {"name": "services_offered", "title": "Services" },
-        {"name": "youth_category", "title": "Type of Organization" },
+        {"name": "youth_category", "title": "Services Offered" },
         {"name": "target_populations", "title": "Populations Served" },
 
-        {"name": "additional_notes", "title": "Information"}
+        {"name": "additional_notes", "title": "Mission"}
     ],
     "search": {
         "geosearch": true
@@ -37,9 +37,9 @@
             "title": "Populations Served",
             "type": "list"
         },
-        "youth_category": {
+        "new_search_class": {
             "title": "Category",
-            "type": "single"
+            "type": "list"
         }
     },
   "analytics": {
